@@ -456,6 +456,23 @@
         <Param val="False" valType="bool" updates="None" name="disabled"/>
         <Param val="code_correctness_2" valType="code" updates="None" name="name"/>
       </CodeComponent>
+      <CodeComponent name="fix_button_size" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="// Resize buttons manually for web version&amp;#10;btn_anger_2.setSize([0.3, 0.15]);&amp;#10;btn_disgust_2.setSize([0.3, 0.15]);&amp;#10;btn_fear_2.setSize([0.3, 0.15]);&amp;#10;btn_happiness_2.setSize([0.3, 0.15]);&amp;#10;btn_neutrality_2.setSize([0.3, 0.15]);&amp;#10;btn_sadness_2.setSize([0.3, 0.15]);" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="fix_button_size" valType="code" updates="None" name="name"/>
+      </CodeComponent>
     </Routine>
     <Routine name="end_screen">
       <RoutineSettingsComponent name="end_screen" plugin="None">

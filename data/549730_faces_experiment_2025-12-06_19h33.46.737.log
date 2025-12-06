@@ -1,0 +1,46 @@
+7.0898 	INFO 	Loaded monitor calibration from ['2025_10_10 10:59']
+7.5196 	INFO 	Using renderer 'AMD Radeon(TM) 840M Graphics' for graphics
+7.5196 	INFO 	OpenGL version supported by driver is 4..
+7.5714 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000022E86E023E0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000022E86E02380>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000022E863D5870>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(0.0), np.float64(0.0)], screen=0, size=array([2560, 1440]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+7.5715 	EXP 	window1: backgroundImage = ''
+7.5716 	EXP 	window1: backgroundFit = 'none'
+8.0072 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+8.0072 	EXP 	window1: recordFrameIntervals = False
+8.1660 	EXP 	window1: recordFrameIntervals = True
+8.2327 	WARNING 	t of last frame was 50.69ms (=1/19)
+8.2806 	WARNING 	t of last frame was 20.46ms (=1/48)
+8.3290 	WARNING 	t of last frame was 20.93ms (=1/47)
+8.3648 	WARNING 	t of last frame was 21.15ms (=1/47)
+8.4135 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+9.8449 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+10.1538 	INFO 	keyboard.Keyboard is using ptb backend.
+10.1539 	EXP 	faces_experiment: status = STARTED
+10.3330 	EXP 	Created introduction_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.04), italic=False, languageStyle='LTR', name='introduction_text', opacity=1, ori=0.0, pos=array([0. , 0.1]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.3867 	EXP 	Created image_stim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='default.png', interpolate=True, mask=None, maskParams=None, name='image_stim', opacity=1, ori=0.0, pos=array([0.  , 0.15]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+10.5515 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+0.0170 	EXP 	introduction_text: autoDraw = True
+1.6571 	DATA 	Mouse: Left button down, pos=(1272,328)
+1.6763 	EXP 	Imported conditions_faces.xlsx as conditions, 72 conditions, 2 params
+1.6776 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'image_file': 'faces/066_y_m_s_a.jpg', 'correct_emotion': 'sadness', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+1.9120 	DATA 	Mouse:  Left button up, pos=(1272,328)
+1.9697 	EXP 	introduction_text: autoDraw = False
+1.9697 	EXP 	image_stim: image = 'faces/066_y_m_s_a.jpg'
+1.9697 	EXP 	image_stim: autoDraw = False
+3.1875 	DATA 	Keypress: lwindows
+3.2045 	EXP 	Device response: <KeyPress from None: t=3.1833576999924844, value=lwindows, duration=None>
+3.2450 	DATA 	Keypress: lshift
+3.2459 	EXP 	Device response: <KeyPress from None: t=3.2433346999896457, value=lshift, duration=None>
+3.8753 	DATA 	Keypress: s
+4.2832 	EXP 	Device response: <KeyPress from None: t=3.2433346999896457, value=lshift, duration=1.0243619000102626>
+4.4243 	EXP 	Device response: <KeyPress from None: t=3.1833576999924844, value=lwindows, duration=1.2391338000015821>
+14.4518 	DATA 	Keypress: escape
+14.4670 	EXP 	Device response: <KeyPress from None: t=14.450271599998814, value=escape, duration=None>
+14.5477 	EXP 	Device response: <KeyPress from None: t=14.450271599998814, value=escape, duration=0.08462999999755993>
+14.5477 	EXP 	faces_experiment: status = STOPPED
+14.5582 	EXP 	faces_experiment: status = STOPPED
+14.5691 	INFO 	saved data to 'C:\\Users\\cimpe\\OneDrive - Aarhus universitet\\Desktop\\Faces Experiment\\data\\549730_faces_experiment_2025-12-06_19h33.46.737.csv'
+14.5714 	INFO 	saved data to C:\Users\cimpe\OneDrive - Aarhus universitet\Desktop\Faces Experiment\data\549730_faces_experiment_2025-12-06_19h33.46.737.psydat
+14.9670 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
