@@ -1,0 +1,566 @@
+7.0753 	INFO 	Loaded monitor calibration from ['2025_10_10 10:59']
+7.4918 	INFO 	Using renderer 'AMD Radeon(TM) 840M Graphics' for graphics
+7.4918 	INFO 	OpenGL version supported by driver is 4..
+7.5339 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001FF86191C30>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001FF86191C90>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001FF86275870>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(0.0), np.float64(0.0)], screen=0, size=array([2560, 1440]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+7.5339 	EXP 	window1: backgroundImage = ''
+7.5340 	EXP 	window1: backgroundFit = 'none'
+7.9394 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+7.9395 	EXP 	window1: recordFrameIntervals = False
+8.0852 	EXP 	window1: recordFrameIntervals = True
+8.1436 	WARNING 	t of last frame was 50.44ms (=1/19)
+8.1921 	WARNING 	t of last frame was 20.11ms (=1/49)
+8.2273 	WARNING 	t of last frame was 22.16ms (=1/45)
+8.2757 	WARNING 	t of last frame was 20.29ms (=1/49)
+8.3101 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+9.7787 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+10.0588 	INFO 	keyboard.Keyboard is using ptb backend.
+10.0589 	EXP 	faces_experiment: status = STARTED
+10.2012 	EXP 	Created introduction_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.04), italic=False, languageStyle='LTR', name='introduction_text', opacity=1, ori=0.0, pos=array([0. , 0.1]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.2422 	EXP 	Created image_stim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='default.png', interpolate=True, mask=None, maskParams=None, name='image_stim', opacity=1, ori=0.0, pos=array([0.  , 0.15]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+10.3138 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+0.0104 	EXP 	introduction_text: autoDraw = True
+0.8551 	DATA 	Mouse: Left button down, pos=(1271,312)
+0.8735 	EXP 	Imported conditions_faces.xlsx as conditions, 72 conditions, 2 params
+0.8747 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'image_file': 'faces/066_y_m_s_a.jpg', 'correct_emotion': 'sadness', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+1.1199 	DATA 	Mouse:  Left button up, pos=(1271,312)
+1.1599 	EXP 	introduction_text: autoDraw = False
+1.1599 	EXP 	image_stim: image = 'faces/066_y_m_s_a.jpg'
+1.1599 	EXP 	image_stim: autoDraw = True
+1.1827 	EXP 	image_stim: autoDraw = False
+1.7417 	DATA 	Mouse: Left button down, pos=(1296,335)
+1.7611 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'image_file': 'faces/116_m_m_n_a.jpg', 'correct_emotion': 'neutrality', 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+1.9288 	DATA 	Mouse:  Left button up, pos=(1296,335)
+1.9389 	EXP 	image_stim: image = 'faces/116_m_m_n_a.jpg'
+1.9389 	EXP 	image_stim: autoDraw = True
+2.0816 	EXP 	image_stim: autoDraw = False
+2.3186 	DATA 	Mouse: Left button down, pos=(1296,335)
+2.3325 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'image_file': 'faces/140_y_f_h_a.jpg', 'correct_emotion': 'happiness', 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+2.5542 	DATA 	Mouse:  Left button up, pos=(1296,335)
+2.5649 	EXP 	image_stim: image = 'faces/140_y_f_h_a.jpg'
+2.5649 	EXP 	image_stim: autoDraw = True
+2.7120 	EXP 	image_stim: autoDraw = False
+2.8965 	DATA 	Mouse: Left button down, pos=(1296,335)
+2.8986 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'image_file': 'faces/140_y_f_d_a.jpg', 'correct_emotion': 'disgust', 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+3.1474 	DATA 	Mouse:  Left button up, pos=(1296,335)
+3.1595 	EXP 	image_stim: image = 'faces/140_y_f_d_a.jpg'
+3.1595 	EXP 	image_stim: autoDraw = True
+3.2197 	EXP 	image_stim: autoDraw = False
+3.4229 	DATA 	Mouse: Left button down, pos=(1296,335)
+3.4360 	EXP 	New trial (rep=0, index=4): <Trial 4 (4 in rep 0) data={'image_file': 'faces/079_o_f_h_a.jpg', 'correct_emotion': 'happiness', 'thisN': 4, 'thisTrialN': 4, 'thisRepN': 0}>
+3.6905 	DATA 	Mouse:  Left button up, pos=(1296,335)
+3.7017 	EXP 	image_stim: image = 'faces/079_o_f_h_a.jpg'
+3.7017 	EXP 	image_stim: autoDraw = True
+3.7625 	EXP 	image_stim: autoDraw = False
+3.9588 	DATA 	Mouse: Left button down, pos=(1296,335)
+3.9777 	EXP 	New trial (rep=0, index=5): <Trial 5 (5 in rep 0) data={'image_file': 'faces/140_y_f_d_b.jpg', 'correct_emotion': 'disgust', 'thisN': 5, 'thisTrialN': 5, 'thisRepN': 0}>
+4.2268 	DATA 	Mouse:  Left button up, pos=(1296,335)
+4.2382 	EXP 	image_stim: image = 'faces/140_y_f_d_b.jpg'
+4.2382 	EXP 	image_stim: autoDraw = True
+4.2963 	EXP 	image_stim: autoDraw = False
+4.4946 	DATA 	Mouse: Left button down, pos=(1296,335)
+4.5051 	EXP 	New trial (rep=0, index=6): <Trial 6 (6 in rep 0) data={'image_file': 'faces/168_m_f_h_a.jpg', 'correct_emotion': 'happiness', 'thisN': 6, 'thisTrialN': 6, 'thisRepN': 0}>
+4.7454 	DATA 	Mouse:  Left button up, pos=(1296,335)
+4.7586 	EXP 	image_stim: image = 'faces/168_m_f_h_a.jpg'
+4.7586 	EXP 	image_stim: autoDraw = True
+4.8775 	EXP 	image_stim: autoDraw = False
+5.2053 	DATA 	Mouse: Left button down, pos=(1296,335)
+5.2071 	EXP 	New trial (rep=0, index=7): <Trial 7 (7 in rep 0) data={'image_file': 'faces/066_y_m_f_a.jpg', 'correct_emotion': 'fear', 'thisN': 7, 'thisTrialN': 7, 'thisRepN': 0}>
+5.4432 	DATA 	Mouse:  Left button up, pos=(1296,335)
+5.4552 	EXP 	image_stim: image = 'faces/066_y_m_f_a.jpg'
+5.4552 	EXP 	image_stim: autoDraw = True
+5.5918 	EXP 	image_stim: autoDraw = False
+5.6619 	DATA 	Mouse: Left button down, pos=(1296,335)
+5.6715 	EXP 	New trial (rep=0, index=8): <Trial 8 (8 in rep 0) data={'image_file': 'faces/116_m_m_a_b.jpg', 'correct_emotion': 'anger', 'thisN': 8, 'thisTrialN': 8, 'thisRepN': 0}>
+5.9077 	DATA 	Mouse:  Left button up, pos=(1296,335)
+5.9207 	EXP 	image_stim: image = 'faces/116_m_m_a_b.jpg'
+5.9207 	EXP 	image_stim: autoDraw = True
+6.0573 	EXP 	image_stim: autoDraw = False
+6.1510 	DATA 	Mouse: Left button down, pos=(1296,335)
+6.1527 	EXP 	New trial (rep=0, index=9): <Trial 9 (9 in rep 0) data={'image_file': 'faces/116_m_m_n_b.jpg', 'correct_emotion': 'neutrality', 'thisN': 9, 'thisTrialN': 9, 'thisRepN': 0}>
+6.3188 	DATA 	Mouse:  Left button up, pos=(1296,335)
+6.3305 	EXP 	image_stim: image = 'faces/116_m_m_n_b.jpg'
+6.3305 	EXP 	image_stim: autoDraw = True
+6.4866 	EXP 	image_stim: autoDraw = False
+6.6667 	DATA 	Mouse: Left button down, pos=(1296,335)
+6.6685 	EXP 	New trial (rep=0, index=10): <Trial 10 (10 in rep 0) data={'image_file': 'faces/116_m_m_a_a.jpg', 'correct_emotion': 'anger', 'thisN': 10, 'thisTrialN': 10, 'thisRepN': 0}>
+6.9082 	DATA 	Mouse:  Left button up, pos=(1296,335)
+6.9199 	EXP 	image_stim: image = 'faces/116_m_m_a_a.jpg'
+6.9199 	EXP 	image_stim: autoDraw = True
+7.0395 	EXP 	image_stim: autoDraw = False
+7.2793 	DATA 	Mouse: Left button down, pos=(1296,335)
+7.2921 	EXP 	New trial (rep=0, index=11): <Trial 11 (11 in rep 0) data={'image_file': 'faces/168_m_f_a_b.jpg', 'correct_emotion': 'anger', 'thisN': 11, 'thisTrialN': 11, 'thisRepN': 0}>
+7.5392 	DATA 	Mouse:  Left button up, pos=(1296,335)
+7.5502 	EXP 	image_stim: image = 'faces/168_m_f_a_b.jpg'
+7.5502 	EXP 	image_stim: autoDraw = True
+7.6631 	EXP 	image_stim: autoDraw = False
+7.8262 	DATA 	Mouse: Left button down, pos=(1296,335)
+7.8278 	EXP 	New trial (rep=0, index=12): <Trial 12 (12 in rep 0) data={'image_file': 'faces/116_m_m_s_a.jpg', 'correct_emotion': 'sadness', 'thisN': 12, 'thisTrialN': 12, 'thisRepN': 0}>
+8.0457 	DATA 	Mouse:  Left button up, pos=(1296,335)
+8.0565 	EXP 	image_stim: image = 'faces/116_m_m_s_a.jpg'
+8.0565 	EXP 	image_stim: autoDraw = True
+8.2126 	EXP 	image_stim: autoDraw = False
+8.4460 	DATA 	Mouse: Left button down, pos=(1296,335)
+8.4626 	EXP 	New trial (rep=0, index=13): <Trial 13 (13 in rep 0) data={'image_file': 'faces/168_m_f_f_a.jpg', 'correct_emotion': 'fear', 'thisN': 13, 'thisTrialN': 13, 'thisRepN': 0}>
+8.6760 	DATA 	Mouse:  Left button up, pos=(1296,335)
+8.6872 	EXP 	image_stim: image = 'faces/168_m_f_f_a.jpg'
+8.6872 	EXP 	image_stim: autoDraw = True
+8.8226 	EXP 	image_stim: autoDraw = False
+9.3982 	DATA 	Mouse: Left button down, pos=(1892,386)
+9.4085 	EXP 	New trial (rep=0, index=14): <Trial 14 (14 in rep 0) data={'image_file': 'faces/140_y_f_s_b.jpg', 'correct_emotion': 'sadness', 'thisN': 14, 'thisTrialN': 14, 'thisRepN': 0}>
+9.6404 	DATA 	Mouse:  Left button up, pos=(1892,386)
+9.6509 	EXP 	image_stim: image = 'faces/140_y_f_s_b.jpg'
+9.6509 	EXP 	image_stim: autoDraw = True
+9.7932 	EXP 	image_stim: autoDraw = False
+9.9182 	DATA 	Mouse: Left button down, pos=(1889,355)
+9.9280 	EXP 	New trial (rep=0, index=15): <Trial 15 (15 in rep 0) data={'image_file': 'faces/004_o_m_s_a.jpg', 'correct_emotion': 'sadness', 'thisN': 15, 'thisTrialN': 15, 'thisRepN': 0}>
+10.1486 	DATA 	Mouse:  Left button up, pos=(1889,355)
+10.1609 	EXP 	image_stim: image = 'faces/004_o_m_s_a.jpg'
+10.1609 	EXP 	image_stim: autoDraw = True
+10.2791 	EXP 	image_stim: autoDraw = False
+10.3580 	DATA 	Mouse: Left button down, pos=(1889,355)
+10.3697 	EXP 	New trial (rep=0, index=16): <Trial 16 (16 in rep 0) data={'image_file': 'faces/079_o_f_a_a.jpg', 'correct_emotion': 'anger', 'thisN': 16, 'thisTrialN': 16, 'thisRepN': 0}>
+10.6037 	DATA 	Mouse:  Left button up, pos=(1889,355)
+10.6148 	EXP 	image_stim: image = 'faces/079_o_f_a_a.jpg'
+10.6148 	EXP 	image_stim: autoDraw = True
+10.6976 	EXP 	image_stim: autoDraw = False
+10.8227 	DATA 	Mouse: Left button down, pos=(1889,355)
+10.8347 	EXP 	New trial (rep=0, index=17): <Trial 17 (17 in rep 0) data={'image_file': 'faces/079_o_f_d_a.jpg', 'correct_emotion': 'disgust', 'thisN': 17, 'thisTrialN': 17, 'thisRepN': 0}>
+11.0691 	DATA 	Mouse:  Left button up, pos=(1889,355)
+11.0805 	EXP 	image_stim: image = 'faces/079_o_f_d_a.jpg'
+11.0805 	EXP 	image_stim: autoDraw = True
+11.1912 	DATA 	Mouse: Left button down, pos=(1889,355)
+11.2037 	EXP 	image_stim: autoDraw = False
+11.2063 	EXP 	New trial (rep=0, index=18): <Trial 18 (18 in rep 0) data={'image_file': 'faces/168_m_f_s_b.jpg', 'correct_emotion': 'sadness', 'thisN': 18, 'thisTrialN': 18, 'thisRepN': 0}>
+11.4311 	DATA 	Mouse:  Left button up, pos=(1889,355)
+11.4413 	EXP 	image_stim: image = 'faces/168_m_f_s_b.jpg'
+11.4413 	EXP 	image_stim: autoDraw = True
+11.5393 	EXP 	image_stim: autoDraw = False
+11.6705 	DATA 	Mouse: Left button down, pos=(1889,355)
+11.6904 	EXP 	New trial (rep=0, index=19): <Trial 19 (19 in rep 0) data={'image_file': 'faces/004_o_m_f_b.jpg', 'correct_emotion': 'fear', 'thisN': 19, 'thisTrialN': 19, 'thisRepN': 0}>
+11.9106 	DATA 	Mouse:  Left button up, pos=(1889,355)
+11.9227 	EXP 	image_stim: image = 'faces/004_o_m_f_b.jpg'
+11.9227 	EXP 	image_stim: autoDraw = True
+12.0791 	EXP 	image_stim: autoDraw = False
+12.4571 	DATA 	Mouse: Left button down, pos=(1889,355)
+12.4740 	EXP 	New trial (rep=0, index=20): <Trial 20 (20 in rep 0) data={'image_file': 'faces/079_o_f_f_b.jpg', 'correct_emotion': 'fear', 'thisN': 20, 'thisTrialN': 20, 'thisRepN': 0}>
+12.7023 	DATA 	Mouse:  Left button up, pos=(1889,355)
+12.7130 	EXP 	image_stim: image = 'faces/079_o_f_f_b.jpg'
+12.7130 	EXP 	image_stim: autoDraw = True
+12.8317 	EXP 	image_stim: autoDraw = False
+13.1108 	DATA 	Mouse: Left button down, pos=(1889,355)
+13.1201 	EXP 	New trial (rep=0, index=21): <Trial 21 (21 in rep 0) data={'image_file': 'faces/116_m_m_d_a.jpg', 'correct_emotion': 'disgust', 'thisN': 21, 'thisTrialN': 21, 'thisRepN': 0}>
+13.2801 	DATA 	Mouse:  Left button up, pos=(1889,355)
+13.2896 	EXP 	image_stim: image = 'faces/116_m_m_d_a.jpg'
+13.2896 	EXP 	image_stim: autoDraw = True
+13.4536 	EXP 	image_stim: autoDraw = False
+13.8964 	DATA 	Mouse: Left button down, pos=(1889,355)
+13.9059 	EXP 	New trial (rep=0, index=22): <Trial 22 (22 in rep 0) data={'image_file': 'faces/168_m_f_a_a.jpg', 'correct_emotion': 'anger', 'thisN': 22, 'thisTrialN': 22, 'thisRepN': 0}>
+14.1227 	DATA 	Mouse:  Left button up, pos=(1889,355)
+14.1349 	EXP 	image_stim: image = 'faces/168_m_f_a_a.jpg'
+14.1349 	EXP 	image_stim: autoDraw = True
+14.2725 	EXP 	image_stim: autoDraw = False
+14.3847 	DATA 	Mouse: Left button down, pos=(1889,355)
+14.4018 	EXP 	New trial (rep=0, index=23): <Trial 23 (23 in rep 0) data={'image_file': 'faces/079_o_f_n_a.jpg', 'correct_emotion': 'neutrality', 'thisN': 23, 'thisTrialN': 23, 'thisRepN': 0}>
+14.6542 	DATA 	Mouse:  Left button up, pos=(1889,355)
+14.6649 	EXP 	image_stim: image = 'faces/079_o_f_n_a.jpg'
+14.6649 	EXP 	image_stim: autoDraw = True
+14.7256 	EXP 	image_stim: autoDraw = False
+14.8471 	DATA 	Mouse: Left button down, pos=(1889,355)
+14.8630 	EXP 	New trial (rep=0, index=24): <Trial 24 (24 in rep 0) data={'image_file': 'faces/140_y_f_f_b.jpg', 'correct_emotion': 'fear', 'thisN': 24, 'thisTrialN': 24, 'thisRepN': 0}>
+15.0766 	DATA 	Mouse:  Left button up, pos=(1889,355)
+15.0886 	EXP 	image_stim: image = 'faces/140_y_f_f_b.jpg'
+15.0886 	EXP 	image_stim: autoDraw = True
+15.1906 	EXP 	image_stim: autoDraw = False
+15.6068 	DATA 	Mouse: Left button down, pos=(1888,134)
+15.6244 	EXP 	New trial (rep=0, index=25): <Trial 25 (25 in rep 0) data={'image_file': 'faces/079_o_f_n_b.jpg', 'correct_emotion': 'neutrality', 'thisN': 25, 'thisTrialN': 25, 'thisRepN': 0}>
+15.8570 	DATA 	Mouse:  Left button up, pos=(1888,134)
+15.8575 	DATA 	Mouse: Left button down, pos=(1888,134)
+15.8581 	DATA 	Mouse:  Left button up, pos=(1888,134)
+15.8709 	EXP 	image_stim: image = 'faces/079_o_f_n_b.jpg'
+15.8709 	EXP 	image_stim: autoDraw = True
+15.9870 	DATA 	Mouse: Left button down, pos=(1888,134)
+15.9876 	DATA 	Mouse:  Left button up, pos=(1888,134)
+16.0061 	EXP 	image_stim: autoDraw = False
+16.0971 	DATA 	Mouse: Left button down, pos=(1888,134)
+16.0993 	EXP 	New trial (rep=0, index=26): <Trial 26 (26 in rep 0) data={'image_file': 'faces/168_m_f_h_b.jpg', 'correct_emotion': 'happiness', 'thisN': 26, 'thisTrialN': 26, 'thisRepN': 0}>
+16.3239 	DATA 	Mouse:  Left button up, pos=(1888,134)
+16.3242 	DATA 	Mouse: Left button down, pos=(1888,134)
+16.3367 	EXP 	image_stim: image = 'faces/168_m_f_h_b.jpg'
+16.3367 	EXP 	image_stim: autoDraw = True
+16.3886 	DATA 	Mouse:  Left button up, pos=(1888,134)
+16.4327 	EXP 	image_stim: autoDraw = False
+16.4688 	DATA 	Mouse: Left button down, pos=(1888,134)
+16.4706 	EXP 	New trial (rep=0, index=27): <Trial 27 (27 in rep 0) data={'image_file': 'faces/066_y_m_n_b.jpg', 'correct_emotion': 'neutrality', 'thisN': 27, 'thisTrialN': 27, 'thisRepN': 0}>
+16.6746 	DATA 	Mouse:  Left button up, pos=(1888,134)
+16.6750 	DATA 	Mouse: Left button down, pos=(1888,134)
+16.6876 	EXP 	image_stim: image = 'faces/066_y_m_n_b.jpg'
+16.6876 	EXP 	image_stim: autoDraw = True
+16.7200 	DATA 	Mouse:  Left button up, pos=(1888,134)
+16.8017 	EXP 	image_stim: autoDraw = False
+16.9267 	DATA 	Mouse: Left button down, pos=(1888,134)
+16.9416 	EXP 	New trial (rep=0, index=28): <Trial 28 (28 in rep 0) data={'image_file': 'faces/004_o_m_d_a.jpg', 'correct_emotion': 'disgust', 'thisN': 28, 'thisTrialN': 28, 'thisRepN': 0}>
+17.1006 	DATA 	Mouse:  Left button up, pos=(1888,134)
+17.1118 	EXP 	image_stim: image = 'faces/004_o_m_d_a.jpg'
+17.1118 	EXP 	image_stim: autoDraw = True
+17.2851 	EXP 	image_stim: autoDraw = False
+17.6383 	DATA 	Mouse: Left button down, pos=(1355,186)
+17.6504 	EXP 	New trial (rep=0, index=29): <Trial 29 (29 in rep 0) data={'image_file': 'faces/004_o_m_d_b.jpg', 'correct_emotion': 'disgust', 'thisN': 29, 'thisTrialN': 29, 'thisRepN': 0}>
+17.8726 	DATA 	Mouse:  Left button up, pos=(1355,186)
+17.8834 	EXP 	image_stim: image = 'faces/004_o_m_d_b.jpg'
+17.8834 	EXP 	image_stim: autoDraw = True
+17.9264 	DATA 	Mouse: Left button down, pos=(1295,151)
+18.0201 	EXP 	image_stim: autoDraw = False
+18.0459 	DATA 	Mouse:  Left button up, pos=(1295,151)
+18.1412 	DATA 	Mouse: Left button down, pos=(1295,151)
+18.1542 	EXP 	New trial (rep=0, index=30): <Trial 30 (30 in rep 0) data={'image_file': 'faces/168_m_f_n_a.jpg', 'correct_emotion': 'neutrality', 'thisN': 30, 'thisTrialN': 30, 'thisRepN': 0}>
+18.3771 	DATA 	Mouse:  Left button up, pos=(1295,151)
+18.3774 	DATA 	Mouse: Left button down, pos=(1295,151)
+18.3779 	DATA 	Mouse:  Left button up, pos=(1295,151)
+18.3868 	EXP 	image_stim: image = 'faces/168_m_f_n_a.jpg'
+18.3868 	EXP 	image_stim: autoDraw = True
+18.5038 	DATA 	Mouse: Left button down, pos=(1295,151)
+18.5255 	EXP 	image_stim: autoDraw = False
+18.5470 	DATA 	Mouse:  Left button up, pos=(1295,151)
+18.6302 	DATA 	Mouse: Left button down, pos=(1295,151)
+18.6462 	EXP 	New trial (rep=0, index=31): <Trial 31 (31 in rep 0) data={'image_file': 'faces/140_y_f_a_b.jpg', 'correct_emotion': 'anger', 'thisN': 31, 'thisTrialN': 31, 'thisRepN': 0}>
+18.8790 	DATA 	Mouse:  Left button up, pos=(1295,151)
+18.8896 	EXP 	image_stim: image = 'faces/140_y_f_a_b.jpg'
+18.8896 	EXP 	image_stim: autoDraw = True
+18.8946 	DATA 	Mouse: Left button down, pos=(1267,339)
+18.9992 	DATA 	Mouse:  Left button up, pos=(1267,339)
+19.0173 	EXP 	image_stim: autoDraw = False
+19.4545 	DATA 	Mouse: Left button down, pos=(728,378)
+19.4678 	EXP 	New trial (rep=0, index=32): <Trial 32 (32 in rep 0) data={'image_file': 'faces/168_m_f_s_a.jpg', 'correct_emotion': 'sadness', 'thisN': 32, 'thisTrialN': 32, 'thisRepN': 0}>
+19.6432 	DATA 	Mouse:  Left button up, pos=(728,378)
+19.6540 	EXP 	image_stim: image = 'faces/168_m_f_s_a.jpg'
+19.6540 	EXP 	image_stim: autoDraw = True
+19.7895 	EXP 	image_stim: autoDraw = False
+20.0306 	DATA 	Mouse: Left button down, pos=(748,166)
+20.0459 	EXP 	New trial (rep=0, index=33): <Trial 33 (33 in rep 0) data={'image_file': 'faces/116_m_m_h_b.jpg', 'correct_emotion': 'happiness', 'thisN': 33, 'thisTrialN': 33, 'thisRepN': 0}>
+20.2664 	DATA 	Mouse:  Left button up, pos=(748,163)
+20.2766 	EXP 	image_stim: image = 'faces/116_m_m_h_b.jpg'
+20.2766 	EXP 	image_stim: autoDraw = True
+20.4135 	EXP 	image_stim: autoDraw = False
+20.7841 	DATA 	Mouse: Left button down, pos=(1350,364)
+20.7859 	EXP 	New trial (rep=0, index=34): <Trial 34 (34 in rep 0) data={'image_file': 'faces/066_y_m_h_b.jpg', 'correct_emotion': 'happiness', 'thisN': 34, 'thisTrialN': 34, 'thisRepN': 0}>
+21.0031 	DATA 	Mouse:  Left button up, pos=(1350,364)
+21.0155 	EXP 	image_stim: image = 'faces/066_y_m_h_b.jpg'
+21.0155 	EXP 	image_stim: autoDraw = True
+21.1522 	EXP 	image_stim: autoDraw = False
+21.1908 	DATA 	Mouse: Left button down, pos=(1690,352)
+21.2094 	EXP 	New trial (rep=0, index=35): <Trial 35 (35 in rep 0) data={'image_file': 'faces/004_o_m_f_a.jpg', 'correct_emotion': 'fear', 'thisN': 35, 'thisTrialN': 35, 'thisRepN': 0}>
+21.4260 	DATA 	Mouse:  Left button up, pos=(1690,352)
+21.4372 	EXP 	image_stim: image = 'faces/004_o_m_f_a.jpg'
+21.4372 	EXP 	image_stim: autoDraw = True
+21.5192 	DATA 	Mouse: Left button down, pos=(1821,340)
+21.5397 	EXP 	image_stim: autoDraw = False
+21.5657 	DATA 	Mouse:  Left button up, pos=(1821,340)
+22.0297 	DATA 	Mouse: Left button down, pos=(1262,128)
+22.0449 	EXP 	New trial (rep=0, index=36): <Trial 36 (36 in rep 0) data={'image_file': 'faces/079_o_f_f_a.jpg', 'correct_emotion': 'fear', 'thisN': 36, 'thisTrialN': 36, 'thisRepN': 0}>
+22.2801 	DATA 	Mouse:  Left button up, pos=(1262,128)
+22.2922 	EXP 	image_stim: image = 'faces/079_o_f_f_a.jpg'
+22.2922 	EXP 	image_stim: autoDraw = True
+22.4280 	EXP 	image_stim: autoDraw = False
+22.5745 	DATA 	Mouse: Left button down, pos=(1197,390)
+22.5866 	EXP 	New trial (rep=0, index=37): <Trial 37 (37 in rep 0) data={'image_file': 'faces/066_y_m_a_a.jpg', 'correct_emotion': 'anger', 'thisN': 37, 'thisTrialN': 37, 'thisRepN': 0}>
+22.8057 	DATA 	Mouse:  Left button up, pos=(1197,390)
+22.8175 	EXP 	image_stim: image = 'faces/066_y_m_a_a.jpg'
+22.8175 	EXP 	image_stim: autoDraw = True
+22.9539 	EXP 	image_stim: autoDraw = False
+23.0322 	DATA 	Mouse: Left button down, pos=(1197,390)
+23.0341 	EXP 	New trial (rep=0, index=38): <Trial 38 (38 in rep 0) data={'image_file': 'faces/140_y_f_h_b.jpg', 'correct_emotion': 'happiness', 'thisN': 38, 'thisTrialN': 38, 'thisRepN': 0}>
+23.2574 	DATA 	Mouse:  Left button up, pos=(1197,390)
+23.2678 	EXP 	image_stim: image = 'faces/140_y_f_h_b.jpg'
+23.2678 	EXP 	image_stim: autoDraw = True
+23.4100 	EXP 	image_stim: autoDraw = False
+23.4145 	DATA 	Mouse: Left button down, pos=(1197,390)
+23.4329 	EXP 	New trial (rep=0, index=39): <Trial 39 (39 in rep 0) data={'image_file': 'faces/168_m_f_d_a.jpg', 'correct_emotion': 'disgust', 'thisN': 39, 'thisTrialN': 39, 'thisRepN': 0}>
+23.6475 	DATA 	Mouse:  Left button up, pos=(1197,390)
+23.6478 	DATA 	Mouse: Left button down, pos=(1197,390)
+23.6579 	EXP 	image_stim: image = 'faces/168_m_f_d_a.jpg'
+23.6579 	EXP 	image_stim: autoDraw = True
+23.6592 	DATA 	Mouse:  Left button up, pos=(1197,390)
+23.7587 	EXP 	image_stim: autoDraw = False
+23.7595 	DATA 	Mouse: Left button down, pos=(1197,390)
+23.7612 	EXP 	New trial (rep=0, index=40): <Trial 40 (40 in rep 0) data={'image_file': 'faces/066_y_m_d_b.jpg', 'correct_emotion': 'disgust', 'thisN': 40, 'thisTrialN': 40, 'thisRepN': 0}>
+23.9323 	DATA 	Mouse:  Left button up, pos=(1197,390)
+23.9327 	DATA 	Mouse: Left button down, pos=(1197,390)
+23.9428 	EXP 	image_stim: image = 'faces/066_y_m_d_b.jpg'
+23.9428 	EXP 	image_stim: autoDraw = True
+23.9885 	DATA 	Mouse:  Left button up, pos=(1197,390)
+24.0780 	DATA 	Mouse: Left button down, pos=(1197,390)
+24.0947 	EXP 	image_stim: autoDraw = False
+24.0965 	EXP 	New trial (rep=0, index=41): <Trial 41 (41 in rep 0) data={'image_file': 'faces/004_o_m_a_a.jpg', 'correct_emotion': 'anger', 'thisN': 41, 'thisTrialN': 41, 'thisRepN': 0}>
+24.3096 	DATA 	Mouse:  Left button up, pos=(1197,390)
+24.3100 	DATA 	Mouse: Left button down, pos=(1197,390)
+24.3105 	DATA 	Mouse:  Left button up, pos=(1197,390)
+24.3218 	EXP 	image_stim: image = 'faces/004_o_m_a_a.jpg'
+24.3218 	EXP 	image_stim: autoDraw = True
+24.3731 	DATA 	Mouse: Left button down, pos=(1197,390)
+24.4302 	EXP 	image_stim: autoDraw = False
+24.4460 	DATA 	Mouse:  Left button up, pos=(1197,390)
+24.5343 	DATA 	Mouse: Left button down, pos=(1197,390)
+24.5500 	EXP 	New trial (rep=0, index=42): <Trial 42 (42 in rep 0) data={'image_file': 'faces/168_m_f_f_b.jpg', 'correct_emotion': 'fear', 'thisN': 42, 'thisTrialN': 42, 'thisRepN': 0}>
+24.7610 	DATA 	Mouse:  Left button up, pos=(1197,390)
+24.7613 	DATA 	Mouse: Left button down, pos=(1197,390)
+24.7747 	EXP 	image_stim: image = 'faces/168_m_f_f_b.jpg'
+24.7747 	EXP 	image_stim: autoDraw = True
+24.8000 	DATA 	Mouse:  Left button up, pos=(1197,390)
+24.8376 	DATA 	Mouse: Left button down, pos=(1197,390)
+24.8750 	EXP 	image_stim: autoDraw = False
+24.9659 	DATA 	Mouse:  Left button up, pos=(1197,390)
+25.0231 	DATA 	Mouse: Left button down, pos=(1197,390)
+25.0404 	EXP 	New trial (rep=0, index=43): <Trial 43 (43 in rep 0) data={'image_file': 'faces/079_o_f_d_b.jpg', 'correct_emotion': 'disgust', 'thisN': 43, 'thisTrialN': 43, 'thisRepN': 0}>
+25.2687 	DATA 	Mouse:  Left button up, pos=(1197,390)
+25.2690 	DATA 	Mouse: Left button down, pos=(1197,390)
+25.2799 	EXP 	image_stim: image = 'faces/079_o_f_d_b.jpg'
+25.2799 	EXP 	image_stim: autoDraw = True
+25.2855 	DATA 	Mouse:  Left button up, pos=(1197,390)
+25.4012 	DATA 	Mouse: Left button down, pos=(1197,390)
+25.4142 	DATA 	Mouse:  Left button up, pos=(1197,390)
+25.4239 	EXP 	image_stim: autoDraw = False
+25.5270 	DATA 	Mouse: Left button down, pos=(1197,390)
+25.5379 	EXP 	New trial (rep=0, index=44): <Trial 44 (44 in rep 0) data={'image_file': 'faces/168_m_f_n_b.jpg', 'correct_emotion': 'neutrality', 'thisN': 44, 'thisTrialN': 44, 'thisRepN': 0}>
+25.7566 	DATA 	Mouse:  Left button up, pos=(1197,390)
+25.7691 	EXP 	image_stim: image = 'faces/168_m_f_n_b.jpg'
+25.7691 	EXP 	image_stim: autoDraw = True
+25.7703 	DATA 	Mouse: Left button down, pos=(1197,390)
+25.9045 	EXP 	image_stim: autoDraw = False
+25.9499 	DATA 	Mouse:  Left button up, pos=(1197,390)
+26.0623 	DATA 	Mouse: Left button down, pos=(1197,390)
+26.0795 	EXP 	New trial (rep=0, index=45): <Trial 45 (45 in rep 0) data={'image_file': 'faces/168_m_f_d_b.jpg', 'correct_emotion': 'disgust', 'thisN': 45, 'thisTrialN': 45, 'thisRepN': 0}>
+26.3122 	DATA 	Mouse:  Left button up, pos=(1197,390)
+26.3126 	DATA 	Mouse: Left button down, pos=(1197,390)
+26.3131 	DATA 	Mouse:  Left button up, pos=(1197,390)
+26.3246 	EXP 	image_stim: image = 'faces/168_m_f_d_b.jpg'
+26.3246 	EXP 	image_stim: autoDraw = True
+26.3430 	DATA 	Mouse: Left button down, pos=(1197,390)
+26.4444 	DATA 	Mouse:  Left button up, pos=(1197,390)
+26.4638 	EXP 	image_stim: autoDraw = False
+26.5031 	DATA 	Mouse: Left button down, pos=(1197,390)
+26.5048 	EXP 	New trial (rep=0, index=46): <Trial 46 (46 in rep 0) data={'image_file': 'faces/004_o_m_n_b.jpg', 'correct_emotion': 'neutrality', 'thisN': 46, 'thisTrialN': 46, 'thisRepN': 0}>
+26.7363 	DATA 	Mouse:  Left button up, pos=(1197,390)
+26.7367 	DATA 	Mouse: Left button down, pos=(1197,390)
+26.7471 	EXP 	image_stim: image = 'faces/004_o_m_n_b.jpg'
+26.7471 	EXP 	image_stim: autoDraw = True
+26.7839 	DATA 	Mouse:  Left button up, pos=(1197,390)
+26.8307 	EXP 	image_stim: autoDraw = False
+26.9038 	DATA 	Mouse: Left button down, pos=(1197,390)
+26.9058 	EXP 	New trial (rep=0, index=47): <Trial 47 (47 in rep 0) data={'image_file': 'faces/004_o_m_s_b.jpg', 'correct_emotion': 'sadness', 'thisN': 47, 'thisTrialN': 47, 'thisRepN': 0}>
+27.0802 	DATA 	Mouse:  Left button up, pos=(1197,390)
+27.0806 	DATA 	Mouse: Left button down, pos=(1197,390)
+27.0903 	EXP 	image_stim: image = 'faces/004_o_m_s_b.jpg'
+27.0903 	EXP 	image_stim: autoDraw = True
+27.1702 	DATA 	Mouse:  Left button up, pos=(1197,390)
+27.2386 	EXP 	image_stim: autoDraw = False
+27.2394 	DATA 	Mouse: Left button down, pos=(1197,390)
+27.2408 	EXP 	New trial (rep=0, index=48): <Trial 48 (48 in rep 0) data={'image_file': 'faces/116_m_m_h_a.jpg', 'correct_emotion': 'happiness', 'thisN': 48, 'thisTrialN': 48, 'thisRepN': 0}>
+27.4023 	DATA 	Mouse:  Left button up, pos=(1197,390)
+27.4112 	EXP 	image_stim: image = 'faces/116_m_m_h_a.jpg'
+27.4112 	EXP 	image_stim: autoDraw = True
+27.4410 	DATA 	Mouse: Left button down, pos=(1197,390)
+27.5104 	DATA 	Mouse:  Left button up, pos=(1197,390)
+27.5622 	EXP 	image_stim: autoDraw = False
+27.6074 	DATA 	Mouse: Left button down, pos=(1197,390)
+27.6087 	EXP 	New trial (rep=0, index=49): <Trial 49 (49 in rep 0) data={'image_file': 'faces/066_y_m_n_a.jpg', 'correct_emotion': 'neutrality', 'thisN': 49, 'thisTrialN': 49, 'thisRepN': 0}>
+27.7625 	DATA 	Mouse:  Left button up, pos=(1197,390)
+27.7728 	EXP 	image_stim: image = 'faces/066_y_m_n_a.jpg'
+27.7728 	EXP 	image_stim: autoDraw = True
+27.7876 	DATA 	Mouse: Left button down, pos=(1197,390)
+27.8524 	DATA 	Mouse:  Left button up, pos=(1197,390)
+27.9391 	EXP 	image_stim: autoDraw = False
+27.9507 	DATA 	Mouse: Left button down, pos=(1197,390)
+27.9612 	EXP 	New trial (rep=0, index=50): <Trial 50 (50 in rep 0) data={'image_file': 'faces/140_y_f_s_a.jpg', 'correct_emotion': 'sadness', 'thisN': 50, 'thisTrialN': 50, 'thisRepN': 0}>
+28.2417 	DATA 	Mouse:  Left button up, pos=(1197,390)
+28.2429 	DATA 	Mouse: Left button down, pos=(1197,390)
+28.2435 	DATA 	Mouse:  Left button up, pos=(1197,390)
+28.2546 	EXP 	image_stim: image = 'faces/140_y_f_s_a.jpg'
+28.2546 	EXP 	image_stim: autoDraw = True
+28.2681 	DATA 	Mouse: Left button down, pos=(1197,390)
+28.2880 	EXP 	image_stim: autoDraw = False
+28.3418 	DATA 	Mouse:  Left button up, pos=(1197,390)
+28.4549 	DATA 	Mouse: Left button down, pos=(1197,390)
+28.4775 	EXP 	New trial (rep=0, index=51): <Trial 51 (51 in rep 0) data={'image_file': 'faces/140_y_f_f_a.jpg', 'correct_emotion': 'fear', 'thisN': 51, 'thisTrialN': 51, 'thisRepN': 0}>
+28.6700 	DATA 	Mouse:  Left button up, pos=(1197,390)
+28.6703 	DATA 	Mouse: Left button down, pos=(1197,390)
+28.6816 	EXP 	image_stim: image = 'faces/140_y_f_f_a.jpg'
+28.6816 	EXP 	image_stim: autoDraw = True
+28.7099 	DATA 	Mouse:  Left button up, pos=(1197,390)
+28.8009 	DATA 	Mouse: Left button down, pos=(1197,390)
+28.8181 	EXP 	image_stim: autoDraw = False
+28.8207 	EXP 	New trial (rep=0, index=52): <Trial 52 (52 in rep 0) data={'image_file': 'faces/116_m_m_s_b.jpg', 'correct_emotion': 'sadness', 'thisN': 52, 'thisTrialN': 52, 'thisRepN': 0}>
+28.9819 	DATA 	Mouse:  Left button up, pos=(1197,390)
+28.9822 	DATA 	Mouse: Left button down, pos=(1197,390)
+28.9923 	EXP 	image_stim: image = 'faces/116_m_m_s_b.jpg'
+28.9923 	EXP 	image_stim: autoDraw = True
+29.0721 	DATA 	Mouse:  Left button up, pos=(1197,390)
+29.1415 	DATA 	Mouse: Left button down, pos=(1197,390)
+29.1583 	EXP 	image_stim: autoDraw = False
+29.1602 	EXP 	New trial (rep=0, index=53): <Trial 53 (53 in rep 0) data={'image_file': 'faces/066_y_m_f_b.jpg', 'correct_emotion': 'fear', 'thisN': 53, 'thisTrialN': 53, 'thisRepN': 0}>
+29.3204 	DATA 	Mouse:  Left button up, pos=(1197,390)
+29.3208 	DATA 	Mouse: Left button down, pos=(1197,390)
+29.3329 	EXP 	image_stim: image = 'faces/066_y_m_f_b.jpg'
+29.3329 	EXP 	image_stim: autoDraw = True
+29.4490 	DATA 	Mouse:  Left button up, pos=(1197,390)
+29.4817 	EXP 	image_stim: autoDraw = False
+29.5268 	DATA 	Mouse: Left button down, pos=(1197,390)
+29.5395 	EXP 	New trial (rep=0, index=54): <Trial 54 (54 in rep 0) data={'image_file': 'faces/140_y_f_a_a.jpg', 'correct_emotion': 'anger', 'thisN': 54, 'thisTrialN': 54, 'thisRepN': 0}>
+29.7670 	DATA 	Mouse:  Left button up, pos=(1197,390)
+29.7673 	DATA 	Mouse: Left button down, pos=(1197,390)
+29.7679 	DATA 	Mouse:  Left button up, pos=(1197,390)
+29.7792 	EXP 	image_stim: image = 'faces/140_y_f_a_a.jpg'
+29.7792 	EXP 	image_stim: autoDraw = True
+29.8478 	DATA 	Mouse: Left button down, pos=(1197,390)
+29.8633 	EXP 	image_stim: autoDraw = False
+29.8659 	EXP 	New trial (rep=0, index=55): <Trial 55 (55 in rep 0) data={'image_file': 'faces/066_y_m_d_a.jpg', 'correct_emotion': 'disgust', 'thisN': 55, 'thisTrialN': 55, 'thisRepN': 0}>
+30.1074 	DATA 	Mouse:  Left button up, pos=(1197,390)
+30.1078 	DATA 	Mouse: Left button down, pos=(1197,390)
+30.1196 	EXP 	image_stim: image = 'faces/066_y_m_d_a.jpg'
+30.1196 	EXP 	image_stim: autoDraw = True
+30.1208 	DATA 	Mouse:  Left button up, pos=(1197,390)
+30.1904 	EXP 	image_stim: autoDraw = False
+30.2134 	DATA 	Mouse: Left button down, pos=(1197,390)
+30.2288 	EXP 	New trial (rep=0, index=56): <Trial 56 (56 in rep 0) data={'image_file': 'faces/116_m_m_f_a.jpg', 'correct_emotion': 'fear', 'thisN': 56, 'thisTrialN': 56, 'thisRepN': 0}>
+30.4642 	DATA 	Mouse:  Left button up, pos=(1197,390)
+30.4647 	DATA 	Mouse: Left button down, pos=(1200,390)
+30.4752 	EXP 	image_stim: image = 'faces/116_m_m_f_a.jpg'
+30.4752 	EXP 	image_stim: autoDraw = True
+30.5050 	DATA 	Mouse:  Left button up, pos=(1200,390)
+30.5589 	EXP 	image_stim: autoDraw = False
+30.6062 	DATA 	Mouse: Left button down, pos=(1200,390)
+30.6152 	EXP 	New trial (rep=0, index=57): <Trial 57 (57 in rep 0) data={'image_file': 'faces/004_o_m_h_a.jpg', 'correct_emotion': 'happiness', 'thisN': 57, 'thisTrialN': 57, 'thisRepN': 0}>
+30.8388 	DATA 	Mouse:  Left button up, pos=(1200,390)
+30.8394 	DATA 	Mouse: Left button down, pos=(1202,392)
+30.8501 	EXP 	image_stim: image = 'faces/004_o_m_h_a.jpg'
+30.8501 	EXP 	image_stim: autoDraw = True
+30.8786 	DATA 	Mouse:  Left button up, pos=(1202,392)
+30.9572 	EXP 	image_stim: autoDraw = False
+30.9981 	DATA 	Mouse: Left button down, pos=(1202,392)
+31.0199 	EXP 	New trial (rep=0, index=58): <Trial 58 (58 in rep 0) data={'image_file': 'faces/066_y_m_s_b.jpg', 'correct_emotion': 'sadness', 'thisN': 58, 'thisTrialN': 58, 'thisRepN': 0}>
+31.2334 	DATA 	Mouse:  Left button up, pos=(1202,392)
+31.2338 	DATA 	Mouse: Left button down, pos=(1202,392)
+31.2446 	EXP 	image_stim: image = 'faces/066_y_m_s_b.jpg'
+31.2446 	EXP 	image_stim: autoDraw = True
+31.2747 	DATA 	Mouse:  Left button up, pos=(1202,392)
+31.3822 	EXP 	image_stim: autoDraw = False
+31.4137 	DATA 	Mouse: Left button down, pos=(1202,392)
+31.4212 	EXP 	New trial (rep=0, index=59): <Trial 59 (59 in rep 0) data={'image_file': 'faces/079_o_f_s_a.jpg', 'correct_emotion': 'sadness', 'thisN': 59, 'thisTrialN': 59, 'thisRepN': 0}>
+31.6610 	DATA 	Mouse:  Left button up, pos=(1202,392)
+31.6617 	DATA 	Mouse: Left button down, pos=(1202,392)
+31.6622 	DATA 	Mouse:  Left button up, pos=(1202,392)
+31.6730 	EXP 	image_stim: image = 'faces/079_o_f_s_a.jpg'
+31.6730 	EXP 	image_stim: autoDraw = True
+31.7534 	EXP 	image_stim: autoDraw = False
+31.7577 	DATA 	Mouse: Left button down, pos=(1202,392)
+31.7737 	EXP 	New trial (rep=0, index=60): <Trial 60 (60 in rep 0) data={'image_file': 'faces/140_y_f_n_b.jpg', 'correct_emotion': 'neutrality', 'thisN': 60, 'thisTrialN': 60, 'thisRepN': 0}>
+32.0086 	DATA 	Mouse:  Left button up, pos=(1202,392)
+32.0090 	DATA 	Mouse: Left button down, pos=(1202,392)
+32.0195 	EXP 	image_stim: image = 'faces/140_y_f_n_b.jpg'
+32.0195 	EXP 	image_stim: autoDraw = True
+32.0314 	DATA 	Mouse:  Left button up, pos=(1202,392)
+32.1014 	EXP 	image_stim: autoDraw = False
+32.1268 	DATA 	Mouse: Left button down, pos=(1202,392)
+32.1377 	EXP 	New trial (rep=0, index=61): <Trial 61 (61 in rep 0) data={'image_file': 'faces/004_o_m_h_b.jpg', 'correct_emotion': 'happiness', 'thisN': 61, 'thisTrialN': 61, 'thisRepN': 0}>
+32.3587 	DATA 	Mouse:  Left button up, pos=(1202,392)
+32.3591 	DATA 	Mouse: Left button down, pos=(1202,392)
+32.3695 	EXP 	image_stim: image = 'faces/004_o_m_h_b.jpg'
+32.3695 	EXP 	image_stim: autoDraw = True
+32.3860 	DATA 	Mouse:  Left button up, pos=(1202,392)
+32.4704 	EXP 	image_stim: autoDraw = False
+32.4786 	DATA 	Mouse: Left button down, pos=(1202,392)
+32.4955 	EXP 	New trial (rep=0, index=62): <Trial 62 (62 in rep 0) data={'image_file': 'faces/066_y_m_a_b.jpg', 'correct_emotion': 'anger', 'thisN': 62, 'thisTrialN': 62, 'thisRepN': 0}>
+32.7107 	DATA 	Mouse:  Left button up, pos=(1202,392)
+32.7239 	EXP 	image_stim: image = 'faces/066_y_m_a_b.jpg'
+32.7239 	EXP 	image_stim: autoDraw = True
+32.7694 	DATA 	Mouse: Left button down, pos=(1202,392)
+32.8277 	EXP 	image_stim: autoDraw = False
+32.8550 	DATA 	Mouse:  Left button up, pos=(1202,392)
+32.9837 	DATA 	Mouse: Left button down, pos=(1202,392)
+33.0021 	EXP 	New trial (rep=0, index=63): <Trial 63 (63 in rep 0) data={'image_file': 'faces/004_o_m_a_b.jpg', 'correct_emotion': 'anger', 'thisN': 63, 'thisTrialN': 63, 'thisRepN': 0}>
+33.2191 	DATA 	Mouse:  Left button up, pos=(1202,392)
+33.2331 	EXP 	image_stim: image = 'faces/004_o_m_a_b.jpg'
+33.2331 	EXP 	image_stim: autoDraw = True
+33.2536 	DATA 	Mouse: Left button down, pos=(1202,392)
+33.3694 	EXP 	image_stim: autoDraw = False
+33.3748 	DATA 	Mouse:  Left button up, pos=(1202,392)
+33.5120 	DATA 	Mouse: Left button down, pos=(1202,392)
+33.5214 	EXP 	New trial (rep=0, index=64): <Trial 64 (64 in rep 0) data={'image_file': 'faces/004_o_m_n_a.jpg', 'correct_emotion': 'neutrality', 'thisN': 64, 'thisTrialN': 64, 'thisRepN': 0}>
+33.7435 	DATA 	Mouse:  Left button up, pos=(1202,392)
+33.7439 	DATA 	Mouse: Left button down, pos=(1202,392)
+33.7446 	DATA 	Mouse:  Left button up, pos=(1202,392)
+33.7578 	EXP 	image_stim: image = 'faces/004_o_m_n_a.jpg'
+33.7578 	EXP 	image_stim: autoDraw = True
+33.8740 	DATA 	Mouse: Left button down, pos=(1202,392)
+33.8955 	EXP 	image_stim: autoDraw = False
+33.8964 	DATA 	Mouse:  Left button up, pos=(1202,392)
+34.1104 	DATA 	Mouse: Left button down, pos=(1202,392)
+34.1204 	EXP 	New trial (rep=0, index=65): <Trial 65 (65 in rep 0) data={'image_file': 'faces/079_o_f_h_b.jpg', 'correct_emotion': 'happiness', 'thisN': 65, 'thisTrialN': 65, 'thisRepN': 0}>
+34.3488 	DATA 	Mouse:  Left button up, pos=(1202,392)
+34.3492 	DATA 	Mouse: Left button down, pos=(1202,392)
+34.3594 	EXP 	image_stim: image = 'faces/079_o_f_h_b.jpg'
+34.3594 	EXP 	image_stim: autoDraw = True
+34.4833 	DATA 	Mouse:  Left button up, pos=(1202,392)
+34.5041 	EXP 	image_stim: autoDraw = False
+34.5230 	DATA 	Mouse: Left button down, pos=(1202,392)
+34.5249 	EXP 	New trial (rep=0, index=66): <Trial 66 (66 in rep 0) data={'image_file': 'faces/079_o_f_a_b.jpg', 'correct_emotion': 'anger', 'thisN': 66, 'thisTrialN': 66, 'thisRepN': 0}>
+34.7539 	DATA 	Mouse:  Left button up, pos=(1202,392)
+34.7542 	DATA 	Mouse: Left button down, pos=(1202,392)
+34.7667 	EXP 	image_stim: image = 'faces/079_o_f_a_b.jpg'
+34.7667 	EXP 	image_stim: autoDraw = True
+34.7745 	DATA 	Mouse:  Left button up, pos=(1202,392)
+34.8555 	EXP 	image_stim: autoDraw = False
+35.0512 	DATA 	Mouse: Left button down, pos=(1202,392)
+35.0529 	EXP 	New trial (rep=0, index=67): <Trial 67 (67 in rep 0) data={'image_file': 'faces/116_m_m_f_b.jpg', 'correct_emotion': 'fear', 'thisN': 67, 'thisTrialN': 67, 'thisRepN': 0}>
+35.2636 	DATA 	Mouse:  Left button up, pos=(1202,392)
+35.2641 	DATA 	Mouse: Left button down, pos=(1202,392)
+35.2754 	EXP 	image_stim: image = 'faces/116_m_m_f_b.jpg'
+35.2754 	EXP 	image_stim: autoDraw = True
+35.3971 	DATA 	Mouse:  Left button up, pos=(1202,392)
+35.4158 	EXP 	image_stim: autoDraw = False
+35.4629 	DATA 	Mouse: Left button down, pos=(1202,392)
+35.4784 	EXP 	New trial (rep=0, index=68): <Trial 68 (68 in rep 0) data={'image_file': 'faces/116_m_m_d_b.jpg', 'correct_emotion': 'disgust', 'thisN': 68, 'thisTrialN': 68, 'thisRepN': 0}>
+35.7007 	DATA 	Mouse:  Left button up, pos=(1202,392)
+35.7010 	DATA 	Mouse: Left button down, pos=(1202,392)
+35.7123 	EXP 	image_stim: image = 'faces/116_m_m_d_b.jpg'
+35.7123 	EXP 	image_stim: autoDraw = True
+35.7137 	DATA 	Mouse:  Left button up, pos=(1202,392)
+35.8120 	EXP 	image_stim: autoDraw = False
+35.8647 	DATA 	Mouse: Left button down, pos=(1202,392)
+35.8665 	EXP 	New trial (rep=0, index=69): <Trial 69 (69 in rep 0) data={'image_file': 'faces/140_y_f_n_a.jpg', 'correct_emotion': 'neutrality', 'thisN': 69, 'thisTrialN': 69, 'thisRepN': 0}>
+36.1128 	DATA 	Mouse:  Left button up, pos=(1202,392)
+36.1131 	DATA 	Mouse: Left button down, pos=(1202,392)
+36.1262 	EXP 	image_stim: image = 'faces/140_y_f_n_a.jpg'
+36.1262 	EXP 	image_stim: autoDraw = True
+36.1274 	DATA 	Mouse:  Left button up, pos=(1202,392)
+36.1910 	EXP 	image_stim: autoDraw = False
+36.2136 	DATA 	Mouse: Left button down, pos=(1202,392)
+36.2295 	EXP 	New trial (rep=0, index=70): <Trial 70 (70 in rep 0) data={'image_file': 'faces/079_o_f_s_b.jpg', 'correct_emotion': 'sadness', 'thisN': 70, 'thisTrialN': 70, 'thisRepN': 0}>
+36.4655 	DATA 	Mouse:  Left button up, pos=(1202,392)
+36.4659 	DATA 	Mouse: Left button down, pos=(1202,392)
+36.4666 	DATA 	Mouse:  Left button up, pos=(1202,392)
+36.4783 	EXP 	image_stim: image = 'faces/079_o_f_s_b.jpg'
+36.4783 	EXP 	image_stim: autoDraw = True
+36.5510 	DATA 	Mouse: Left button down, pos=(1202,392)
+36.5625 	EXP 	image_stim: autoDraw = False
+36.5650 	EXP 	New trial (rep=0, index=71): <Trial 71 (71 in rep 0) data={'image_file': 'faces/066_y_m_h_a.jpg', 'correct_emotion': 'happiness', 'thisN': 71, 'thisTrialN': 71, 'thisRepN': 0}>
+36.7934 	DATA 	Mouse:  Left button up, pos=(1202,392)
+36.8043 	EXP 	image_stim: image = 'faces/066_y_m_h_a.jpg'
+36.8043 	EXP 	image_stim: autoDraw = True
+36.8866 	EXP 	image_stim: autoDraw = False
+37.3828 	DATA 	Mouse: Left button down, pos=(1202,392)
+37.3913 	EXP 	text: autoDraw = True
+37.4811 	DATA 	Mouse:  Left button up, pos=(1202,392)
+38.7073 	DATA 	Mouse: Left button down, pos=(1406,729)
+38.8485 	DATA 	Mouse:  Left button up, pos=(1406,729)
+40.4397 	EXP 	Device response: <KeyPress from None: t=40.42130960000213, value=escape, duration=None>
+40.4423 	DATA 	Keypress: escape
+40.5140 	EXP 	Device response: <KeyPress from None: t=40.42130960000213, value=escape, duration=0.09061800000199582>
+40.5141 	EXP 	faces_experiment: status = STOPPED
+40.5281 	EXP 	text: autoDraw = False
+40.5285 	EXP 	faces_experiment: status = STOPPED
+40.5608 	INFO 	saved data to 'C:\\Users\\cimpe\\OneDrive - Aarhus universitet\\Desktop\\Faces Experiment\\data\\968036_faces_experiment_2025-12-06_17h15.35.256.csv'
+40.5669 	INFO 	saved data to C:\Users\cimpe\OneDrive - Aarhus universitet\Desktop\Faces Experiment\data\968036_faces_experiment_2025-12-06_17h15.35.256.psydat
+40.9696 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.

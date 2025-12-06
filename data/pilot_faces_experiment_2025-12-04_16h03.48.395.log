@@ -1,0 +1,69 @@
+16.8396 	DEBUG 	Fullscreen settings ignored as running in pilot mode.
+16.8429 	INFO 	Loaded monitor calibration from ['2025_10_10 10:59']
+17.7744 	INFO 	Using renderer 'AMD Radeon(TM) 840M Graphics' for graphics
+17.7744 	INFO 	OpenGL version supported by driver is 4..
+18.3577 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001EFCA0C1780>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001EFCA0C17E0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=False, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001EFCA15F9A0>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(880.0), np.float64(420.0)], screen=0, size=array([800, 600]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+18.3578 	EXP 	window1: backgroundImage = ''
+18.3579 	EXP 	window1: backgroundFit = 'none'
+18.4244 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+18.4499 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+18.4690 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+18.4881 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+18.5066 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+18.5246 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+18.5572 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+18.5828 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+18.6023 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+18.6208 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+18.6381 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+18.6562 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+18.6747 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+18.6931 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+18.7115 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+18.7293 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+18.7473 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+18.7644 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+18.7823 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+18.7998 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+18.8167 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+18.8176 	DEBUG 	Uploading Texture Font fontname to graphics card
+18.8199 	DEBUG 	Upload of Texture Font fontname complete
+18.8478 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+18.8692 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+18.9037 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+18.9050 	DEBUG 	Uploading Texture Font fontname to graphics card
+18.9076 	DEBUG 	Upload of Texture Font fontname complete
+18.9150 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+18.9151 	EXP 	window1: recordFrameIntervals = False
+19.1553 	EXP 	window1: recordFrameIntervals = True
+19.3391 	EXP 	Screen (0) actual frame rate measured at 60.24Hz
+19.3392 	EXP 	window1: recordFrameIntervals = False
+19.3732 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+19.3982 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+19.4210 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+19.4406 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+19.4659 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+19.4851 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+19.5058 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+19.5398 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+19.5623 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+19.5814 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+19.5822 	DEBUG 	Uploading Texture Font fontname to graphics card
+19.5837 	DEBUG 	Upload of Texture Font fontname complete
+19.9111 	INFO 	keyboard.Keyboard is using ptb backend.
+19.9113 	EXP 	faces_experiment: status = STARTED
+19.9613 	EXP 	Created imageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='default.png', interpolate=True, mask=None, maskParams=None, name='imageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+20.8076 	EXP 	Created btn_anger = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.06), italic=False, languageStyle='LTR', name='btn_anger', opacity=1, ori=0.0, pos=array([-0.4 , -0.25]), rgb=UNKNOWN, text='Anger', units='height', win=Window(...), wrapWidth=1)
+20.8242 	EXP 	Created btn_disgust = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.06), italic=False, languageStyle='LTR', name='btn_disgust', opacity=1, ori=0.0, pos=array([ 0.  , -0.25]), rgb=UNKNOWN, text='Disgust', units='height', win=Window(...), wrapWidth=1)
+20.8320 	EXP 	Created btn_fear = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.06), italic=False, languageStyle='LTR', name='btn_fear', opacity=1, ori=0.0, pos=array([ 0.4 , -0.25]), rgb=UNKNOWN, text='Fear', units='height', win=Window(...), wrapWidth=1)
+20.8391 	EXP 	Created btn_happiness = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.06), italic=False, languageStyle='LTR', name='btn_happiness', opacity=1, ori=0.0, pos=array([-0.04, -0.45]), rgb=UNKNOWN, text='Happiness', units='height', win=Window(...), wrapWidth=1)
+20.8490 	EXP 	Created btn_neutrality = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-6.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.06), italic=False, languageStyle='LTR', name='btn_neutrality', opacity=1, ori=0.0, pos=array([ 0.  , -0.45]), rgb=UNKNOWN, text='Neutrality', units='height', win=Window(...), wrapWidth=1)
+20.8565 	EXP 	Created btn_sadness = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-7.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.06), italic=False, languageStyle='LTR', name='btn_sadness', opacity=1, ori=0.0, pos=array([ 0.4 , -0.45]), rgb=UNKNOWN, text='Sadness', units='height', win=Window(...), wrapWidth=1)
+0.0270 	DEBUG 	Read excel file with openpyxl: conditions_faces.xlsx
+0.0300 	EXP 	Imported conditions_faces.xlsx as conditions, 72 conditions, 2 params
+0.0314 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'image_file': '116_m_m_d_a.jpg', 'correct_emotion': 'disgust', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+0.0323 	ERROR 	Couldn't find image 116_m_m_d_a.jpg; check path? (tried: C:\Users\cimpe\OneDrive - Aarhus universitet\Desktop\Faces Experiment\116_m_m_d_a.jpg)
+0.2221 	DEBUG 	Saving data for faces_experiment ExperimentHandler
+0.2256 	INFO 	saved data to C:\Users\cimpe\OneDrive - Aarhus universitet\Desktop\Faces Experiment\data\pilot_faces_experiment_2025-12-04_16h03.48.395.psydat
+0.2269 	INFO 	saved data to 'C:\\Users\\cimpe\\OneDrive - Aarhus universitet\\Desktop\\Faces Experiment\\data\\pilot_faces_experiment_2025-12-04_16h03.48.395.csv'
+0.2373 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.

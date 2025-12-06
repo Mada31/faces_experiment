@@ -1,0 +1,28 @@
+6.9688 	INFO 	Loaded monitor calibration from ['2025_10_10 10:59']
+7.3747 	INFO 	Using renderer 'AMD Radeon(TM) 840M Graphics' for graphics
+7.3747 	INFO 	OpenGL version supported by driver is 4..
+7.4261 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000025502091C30>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000025502091C90>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000025502175870>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(0.0), np.float64(0.0)], screen=0, size=array([2560, 1440]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+7.4262 	EXP 	window1: backgroundImage = ''
+7.4262 	EXP 	window1: backgroundFit = 'none'
+7.8545 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+7.8545 	EXP 	window1: recordFrameIntervals = False
+8.0355 	EXP 	window1: recordFrameIntervals = True
+8.1014 	WARNING 	t of last frame was 53.23ms (=1/18)
+8.1341 	WARNING 	t of last frame was 23.01ms (=1/43)
+8.1685 	WARNING 	t of last frame was 22.12ms (=1/45)
+8.2507 	WARNING 	t of last frame was 21.36ms (=1/46)
+8.3003 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+9.7188 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+10.0294 	INFO 	keyboard.Keyboard is using ptb backend.
+10.0295 	EXP 	faces_experiment: status = STARTED
+10.2590 	EXP 	Created introduction_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.04), italic=False, languageStyle='LTR', name='introduction_text', opacity=1, ori=0.0, pos=array([0. , 0.1]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.2879 	EXP 	Created image_stim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='default.png', interpolate=True, mask=None, maskParams=None, name='image_stim', opacity=1, ori=0.0, pos=array([0.  , 0.15]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+10.3755 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+0.0097 	EXP 	introduction_text: autoDraw = True
+1.0061 	DATA 	Mouse: Left button down, pos=(1232,287)
+1.1580 	INFO 	saved data to C:\Users\cimpe\OneDrive - Aarhus universitet\Desktop\Faces Experiment\data\699832_faces_experiment_2025-12-06_17h40.43.010.psydat
+1.1591 	INFO 	saved data to 'C:\\Users\\cimpe\\OneDrive - Aarhus universitet\\Desktop\\Faces Experiment\\data\\699832_faces_experiment_2025-12-06_17h40.43.010.csv'
+1.1753 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.

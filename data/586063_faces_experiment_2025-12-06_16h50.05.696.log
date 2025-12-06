@@ -1,0 +1,28 @@
+9.4910 	INFO 	Loaded monitor calibration from ['2025_10_10 10:59']
+10.3948 	INFO 	Using renderer 'AMD Radeon(TM) 840M Graphics' for graphics
+10.3948 	INFO 	OpenGL version supported by driver is 4..
+10.8301 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000027A1742F430>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000027A1742F490>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000027A16A02A40>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(0.0), np.float64(0.0)], screen=0, size=array([2560, 1440]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+10.8302 	EXP 	window1: backgroundImage = ''
+10.8302 	EXP 	window1: backgroundFit = 'none'
+11.2780 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+11.2780 	EXP 	window1: recordFrameIntervals = False
+11.4724 	EXP 	window1: recordFrameIntervals = True
+11.5231 	WARNING 	t of last frame was 43.62ms (=1/22)
+11.5707 	WARNING 	t of last frame was 21.10ms (=1/47)
+11.6052 	WARNING 	t of last frame was 21.42ms (=1/46)
+11.6536 	WARNING 	t of last frame was 20.60ms (=1/48)
+11.6887 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+13.1561 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+13.4905 	INFO 	keyboard.Keyboard is using ptb backend.
+13.4907 	EXP 	faces_experiment: status = STARTED
+13.9385 	EXP 	Created introduction_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.04), italic=False, languageStyle='LTR', name='introduction_text', opacity=1, ori=0.0, pos=array([0. , 0.1]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+13.9746 	EXP 	Created image_stim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='default.png', interpolate=True, mask=None, maskParams=None, name='image_stim', opacity=1, ori=0.0, pos=array([0.  , 0.15]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+0.0315 	EXP 	introduction_text: autoDraw = True
+1.8156 	DATA 	Mouse: Left button down, pos=(1228,290)
+1.8178 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+1.9551 	INFO 	saved data to C:\Users\cimpe\OneDrive - Aarhus universitet\Desktop\Faces Experiment\data\586063_faces_experiment_2025-12-06_16h50.05.696.psydat
+1.9562 	INFO 	saved data to 'C:\\Users\\cimpe\\OneDrive - Aarhus universitet\\Desktop\\Faces Experiment\\data\\586063_faces_experiment_2025-12-06_16h50.05.696.csv'
+1.9600 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
